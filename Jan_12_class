@@ -1,0 +1,21 @@
+// fetch
+// map
+
+
+// // reduce: nums.reduce(1st ,2nd)
+// -> reduce an array into single value
+
+
+
+// react 
+
+// // Hoisting
+// function can be called earlier than function declaration and definition which means by hoisting in JSON
+
+
+//Closure:
+// function inside function 
+// JS ma aafno scope ma xaina vane aafu vanda mathillo scope lai herxa
+// if in outer scope then reach out otherwise look for global scope 
+// if not reject  
+

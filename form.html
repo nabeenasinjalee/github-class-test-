@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>JavaScript node Basics</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <!-- <script>
+
+        </script> -->
+        <script src="./formcss.js"></script>
+        <style>
+            form{
+                /* background-color: antiquewhite; */
+                border: 2px solid black;
+                border-radius: 20px;
+                display: flex;
+                /* display: inline-block; */
+                flex-direction: column;
+                width: 60%;
+                padding: 2rem;
+                font-size: 34px;
+            }
+
+            input{
+                min-height: 29px;
+                margin: 0.8rem 0px ;
+                font-size: 1.5rem;
+                padding: 0.8rem;
+                border: 1px solid black;
+                border-radius: 10px;
+                background-color: rgb(210, 236, 169);
+                /* outline: none; */
+                /* outline: inset; */
+                /* outline: outset; */
+                /* border-bottom: 1px solid black; */
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+            }  
+            button{
+                min-height: 29px;
+                margin: 0.8rem 0px ;
+                font-size: 1.5rem;
+                padding: 0.8rem;
+            }
+            #button:hover{
+                /* transform: translateX(0.5rem); */
+                transform: scaleX(4 rem );
+                transition: 2s ease;
+                transform: rotate(3deg);
+                /* transform: translateY(4rem); */
+                background-color: pink;
+                box-shadow: rgba(26, 26, 79, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <label for="">Full Name</label>
+            <input type="text" name="fullName" id="fullName" value="Hari Bahadur"/>
+            <span id="f_info">  </span>
+
+            <label for="">Email</label>
+            <input type="email" name="email_id" id="email_id" placeholder="example@gmail.com" required/>
+            <span id="e_info"></span>
+            <!-- required: must needed  -->
+
+
+            <label for="pass">Password</label>
+            <!-- <input type="password" name="password" id="pass" value="********" readonly/> -->
+            <input type="password" name="password" id="pass" required/>
+            <span id="p_info"></span>
+            <!-- readonly allows you not to change  -->
+            <!-- for search for that specific id -->
+            
+            <input type="button"  onclick="formData()"  value="Submit" id="button"/>
+            <!-- <input type="submit"  name="submit" onclick="formData()"  value="Submit"/> -->
+            <!-- <button id="submitButton" onclick="formData()">Submit</button> -->
+        </form>
+        <!-- <script src="./form.js"></script> -->
+    </body>
+</html>
+<!-- props - properties -->
+
+
+<!-- 
+    Removing Outline 
+ -->
+
+
+ <!-- ID selector -->
+            <!-- TagName  -->
+            <!-- Class Selector -->
+            <!-- Query Selector -->

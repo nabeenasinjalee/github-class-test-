@@ -1,0 +1,1 @@
+// To resolve promise we need to either use await or use then
